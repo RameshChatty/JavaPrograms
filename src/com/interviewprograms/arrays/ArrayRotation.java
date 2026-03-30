@@ -5,6 +5,21 @@ import java.util.Arrays;
 
 
 /**
+ * 
+ * 
+Given array nums and integer k, rotate right by k steps in-place. Example: [1,2,3,4,5,6,7] with k=3 becomes [5,6,7,1,2,3,4].
+
+Formal Statement
+text
+Input: nums = [1,2,3,4,5,6,7], k = 3
+Output: [5,6,7,1,2,3,4]
+
+Constraints:
+- 1 <= nums.length <= 10^5
+- -2^31 <= nums[i] <= 2^31 - 1
+- 0 <= k <= 10^5
+- Modify in-place (O(1) extra space)
+ * 
  * Rotates array right by k positions using reversal algorithm.
  * Time: O(n), Space: O(1)
  */
